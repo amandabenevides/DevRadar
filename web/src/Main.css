@@ -22,6 +22,14 @@ li.dev-item {
     padding: 20px;
 }
 
+@media (max-width:650px) {
+    li.dev-item {
+        margin: 0;
+        width: 100%;
+    }
+}
+
+
 li.dev-item header {
     display: flex;  
     flex-direction: row;
